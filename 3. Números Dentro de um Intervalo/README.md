@@ -1,9 +1,9 @@
+# Exercício 03
 
-# Desafio de Lógica Módulo 1
+## Números Dentro de um Intervalo
 
-1. Soma Dos Elementos
-2. Média Aritmética
-3. Números Dentro de um Intervalo
+
+
 4. Mesa de Poker
 5. Truco
 6. Caçula dos Adultos
