@@ -9,11 +9,12 @@ Quando precisa-se escolher apenas uma pessoa aleatoriamente dentro de um grupo, 
 **Input Format**
 
 A entrada será sempre um vetor de objetos chamado jogadores, em que cada objeto é uma pessoa, com o seguinte formato:
-
+```javascript
 {
     nome: "Herbert",
     jogada: 0 //será sempre 0 ou 1
 }
+```
 
 **Constraints**
 
@@ -24,7 +25,7 @@ Pode-se assumir que sempre haverá pelo menos 3 pessoas jogando, ou seja, a entr
 Imprima na tela o nome do jogador que foi sorteado.
 
 **Sample Input 0**
-```javascript
+```
 [
   {
     "nome": "Herman",
