@@ -10,29 +10,36 @@ Durante alguns testes de rotina foi descoberto um bug na hora de validar a senha
 
 Por exemplo, se a senha for “cubos” e for digitado “cuggbyos”, o cofre irá abrir.
 
-Input Format
+**Input Format**
 
 A entrada consistirá em duas linhas, na primeira linha estará a senha correta, de até S caracteres. Na segunda linha estará a palavra digitada pela pessoa, de até N caracteres.
 
-Constraints
+**Constraints**
 
 S ≤ 10^3 N ≤ 10^5
 
-Output Format
+**Output Format**
 
 Imprima “SIM” caso o cofre abra. Caso contrário, imprimir “NAO”.
 
-Sample Input 0
-
+**Sample Input 0**
+```javascript
 cubos
 cuggbyos
-Sample Output 0
+```
 
+**Sample Output 0**
+```
 SIM
-Sample Input 1
+```
 
+**Sample Input 1**
+```
 cubos
 ewvelrabsocaeln
-Sample Output 1
+```
 
+**Sample Output 1**
+```
 NAO
+```

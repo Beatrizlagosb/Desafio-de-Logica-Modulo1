@@ -8,44 +8,56 @@ vOCÊ ESTÁ DESENVOLVENDO UM FORMULÁRIO DE CADASTRO E NOS PRIMEIROS TESTES DE U
 
 cONSIDERAMOS QUE UMA PALAVRA FOI ESCRITA COM cAPS lOCK SE OU TODAS AS SUAS LETRAS FOREM MAIÚSCULAS OU SE A PRIMEIRA FOR MINÚSCULA E TODAS AS OUTRAS MAIÚSCULAS. a CORREÇÃO NESSES CASOS É INVERTER TODAS AS LETRAS.
 
-Input Format
+**Input Format**
 
 a ENTRADA CONSISTE DE UMA ÚNICA PALAVRA CONTENDO APENAS LETRAS LATINAS (A-Z), MINÚSCULAS OU MAIÚSCULAS.
 
-Constraints
+**Constraints**
 
 uMA PALAVRA POSSUI NO MÁXIMO 100 LETRAS.
 
-Output Format
+**Output Format**
 
 iMPRIMA A PALAVRA CORRIGIDA, CASO O ALGORITMO TENHA DETECTADO QUE ELA FOI ESCRITA COM cAPS lOCK ATIVO.
 
-Sample Input 0
-
+**Sample Input 0**
+```javascript
 cAPS
-Sample Output 0
+```
 
+**Sample Output 0**
+```
 Caps
-Explanation 0
+```
+
+**Explanation 0**
 
 Ao receber um input com o texto contendo a primeira letra minúscula e o restante da palavra maiúscula devemos retornar o formato inverso, ou seja, a primeira letra maiúscula e o restante da palavra minúscula
 
-Sample Input 1
-
+**Sample Input 1**
+```
 lock
-Sample Output 1
+```
 
+**Sample Output 1**
+```
 lock
-Explanation 1
+```
+
+**Explanation 1**
 
 Ao receber um input com o texto minúsculo devemos retornar o texto no mesmo formato
 
-Sample Input 2
-
+**Sample Input 2**
+```
 CAPS
-Sample Output 2
+```
 
+**Sample Output 2**
+```
 caps
-Explanation 2
+```
+
+**Explanation 2**
 
 Ao receber um input com o texto todo maiúsculo devemos retornar o texto minúsculo

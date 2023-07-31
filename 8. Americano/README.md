@@ -12,29 +12,36 @@ Para fins de facilitar a resposta do problema, vamos considerar que o capitão e
 
 Você deve fazer um programa que determina qual a posição do jogador que deve ser o goleiro.
 
-Input Format
+**Input Format**
 
 A entrada será um array com N números, que corresempondem ao número jogado por cada um dos jogadores do time. Logo, se o array tiver tamanho 11, significa que este time tem 11 jogadores, por exemplo.
 
-Constraints
+**Constraints**
 
 0 < X < 11
 
 N < 12
 
-Output Format
+**Output Format**
 
 Imprima na tela a posição em que está o jogodar que foi sorteado para ser o goleiro.
 
-Sample Input 0
-
+**Sample Input 0**
+```javascript
 1 3 2 1
-Sample Output 0
+```
 
+**Sample Output 0**
+```
 3
-Sample Input 1
+```
 
+**Sample Input 1**
+```
 1 1 1
-Sample Output 1
+```
 
+**Sample Output 1**
+```
 3
+```
