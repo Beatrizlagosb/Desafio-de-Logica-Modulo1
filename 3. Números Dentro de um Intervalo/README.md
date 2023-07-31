@@ -1,3 +1,5 @@
+![](https://i.imgur.com/xG74tOh.png)
+
 # Exercício 03
 
 ## Números Dentro de um Intervalo
