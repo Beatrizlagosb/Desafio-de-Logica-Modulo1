@@ -10,33 +10,40 @@ Eles pediram, então, para que você crie um programa que consiga fazer a prova-
 
 Seu objetivo é:
 
-Implementar uma função que receba três argumentos: numero, limiteInferior e limiteSuperior;
-Essa função deve retornar se esse número pertence ao conjunto que é limitado pelo limiteInferior e limiteSuperior
-Pertencer ao conjunto significa que dado o numero, ele deve ser maior ou igual que o limiteInferior e menor ou igual do que o limiteSuperior.
+- Implementar uma função que receba três argumentos: numero, limiteInferior e limiteSuperior;
+- Essa função deve retornar se esse número pertence ao conjunto que é limitado pelo **limiteInferior** e **limiteSuperior**.
 
-Input Format
+Pertencer ao conjunto significa que dado o **numero**, ele deve ser maior ou igual que o **limiteInferior** e menor ou igual do que o **limiteSuperior**.
+
+**Input Format**
 
 A entrada consista de três parâmetros: numero, limiteInferior e limiteSuperior.
 
-numero refere-se ao número desejado para saber se ele está dentro ou não do limite. limiteInferior refere-se ao menor valor do limite de um dado intervalo; limiteSuperior refere-se ao maior valor do limite de um dado intervalo;
+**numero** refere-se ao número desejado para saber se ele está dentro ou não do limite. **limiteInferior** refere-se ao menor valor do limite de um dado intervalo; **limiteSuperior** refere-se ao maior valor do limite de um dado intervalo;
 
-Constraints
+**Constraints**
 
-Quaisquer números inteiros;
-limiteInferior menor ou igual ao limiteSuperior;
-Output Format
+- Quaisquer números inteiros;
+- **limiteInferior** menor ou igual ao **limiteSuperior**;
+
+**Output Format**
 
 Imprima uma das duas opções abaixo:
 
-PERTENCE - para quando um número pertence ao limite delimitado;
-NAO PERTENCE - para quando um número não pertence ao limite delimitado;
-Sample Input 0
+**PERTENCE** - para quando um número pertence ao limite delimitado;
+**NAO PERTENCE** - para quando um número não pertence ao limite delimitado;
 
+**Sample Input 0**
+```javascript
 10 5 20
-Sample Output 0
+```
 
+**Sample Output 0**
+```
 PERTENCE
-Explanation 0
+```
 
-O primeiro valor refere-se ao valor que deseja-se saber é pertercente ao intervalo;
-O segundo e terceiro valor refere-se ao intervalo.
+**Explanation 0**
+
+- O primeiro valor refere-se ao valor que deseja-se saber é pertercente ao intervalo;
+- O segundo e terceiro valor refere-se ao intervalo.
